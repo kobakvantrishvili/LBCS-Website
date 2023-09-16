@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Laser Based Communication</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="./images/San_Diego_State_Aztecs_logo.png" rel="icon" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!--MAIN NAVBAR-->
+        <div id="navbar_div">
+            <nav id="navbar">
+                <ul>
+                    <li id="san-diego-logo">
+                        <a href="" tabindex="0">
+                            <!--<img src="./images/San_Diego_State_logo.png" alt="drop shop logo">-->
+                            <img src="https://ou-resources.sdsu.edu/images/_sdsu/logo-2022/logo.png"
+                                alt="San Diego State University" height="60" width="257">
+                        </a>
+                    </li>
+                    <li class="hover" id="home">
+                        <a href="#jump_home" tabindex="1">
+                            <span>HOME</span>
+                        </a>
+                    </li>
+                    <li class="hover" id="about">
+                        <a href="#jump_about" tabindex="2">
+                            <span>ABOUT</span>
+                        </a>
+                    </li>
+                    <li class="hover" id="overview">
+                        <a href="#jump_overview" tabindex="3">
+                            <span>OVERVIEW</span>
+                        </a>
+                    </li>
+                    <li class="hover" id="summary">
+                        <a href="#jump_summary" tabindex="4">
+                            <span>SUMMARY</span>
+                        </a>
+                    </li>
+                    <li id="menu-bars" tabindex="0">
+                        <a href="" onclick="return show();">
+                            <div class="menu-bar" id="first"></div>
+                            <div class="menu-bar"></div>
+                            <div class="menu-bar" id="last"></div>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!--SIDE NAVBAR-->
+        <aside class="side-navbar hide">
+            <ul>
+                <li><a href="" id="back-btn" onclick="return hide();"><img src="./images/back_arrow.svg"
+                            alt="back button"></a>
+                </li>
+                <li class="hover"><a href="#jump_home" class="side-bar">HOME</a></li>
+                <li class="hover"><a href="#jump_about" class="side-bar">ABOUT</a></li>
+                <li class="hover"><a href="#jump_overview" class="side-bar">OVERVIEW</a></li>
+                <li class="hover"><a href="#jump_summary" class="side-bar">SUMMARY</a></li>
+            </ul>
+        </aside>
+    </header>
+
+    <main>
+        <figure id="banner1">
+            <p id="lbcs">LASER BASED COMMUNCIATION SYSTEM</p>
+        </figure>
+
+        <a class="anchor" id="jump_home"></a>
+        <div class="banner2"></div>
+
+        <h1>Team Members</h1>
+        <hr>
+        <div id="featured-container">
+            <figure class="featured-student">
+                <img src="./images/Aleksandre Toria.JPG" alt="featured photo 1">
+                <figcaption>
+                    ALEXANDRE TORIA <br> <span class="student">Computer Engineering Student</span>
+                </figcaption>
+            </figure>
+
+            <figure class="featured-student">
+                <img src="./images/Iakob Kvantrishvili.JPG" alt="featured photo 2">
+                <figcaption>
+                    IAKOB KVANTRISHVILI <br> <span class="student">Computer Engineering Student</span>
+                </figcaption>
+            </figure>
+
+            <figure class="featured-student">
+                <img src="./images/Luka Nadaraia.JPG" alt="featured photo 3">
+                <figcaption>
+                    LUKA NADARAIA <br> <span class="student">Computer Engineering Student</span>
+                </figcaption>
+            </figure>
+
+            <figure class="featured-student">
+                <img src="./images/Saba Kotolashvili.JPG" alt="featured photo 4">
+                <figcaption>
+                    SABA KOTOLASHVILI <br> <span class="student">Computer Engineering Student</span>
+                </figcaption>
+
+            </figure>
+
+            <figure class="featured-student">
+                <img src="./images/Sandro Chitadze.jpeg" alt="featured photo 5">
+                <figcaption>
+                    SANDRO CHITADZE <br> <span class="student">Electrical Engineering Student</span>
+                </figcaption>
+            </figure>
+        </div>
+
+        <a class="anchor" id="jump_about"></a>
+        <h1>About</h1>
+        <hr>
+        <div class="content">
+            <p>
+                Communication has become a vital part of our lives in the modern world. Technology
+                has advanced, and communication systems have changed to offer information
+                transmission methods that are quicker and more dependable. The laser-based
+                communication system is one such innovation that has attracted a lot of interest
+                recently. <br><br>
+                Instead of using conventional radio-frequency signals to transfer data across the
+                atmosphere or across space, laser-based communication systems use laser beams. It
+                has a number of benefits over conventional communication systems, including better
+                data rates, improved security, and longer ranges. Due to these benefits, it is suitable for
+                uses requiring rapid and reliable communication, such as satellite communication, deep
+                space missions, and military communications.<br><br>
+                Our team has developed a laser-based communication system capable of transmitting
+                microphone signals using a laser beam by first digitalizing the signal, sending it,
+                capturing it, and then converting it back to analog form so that it can be played through
+                speakers as it was originally recorded. This device can also send any other analog or
+                digital signals at very high speed across a 450nm wavelength laser beam.<br><br>
+                The purpose of this research is to illustrate the potential of laser-based communication
+                systems for real-world uses in data transfer and communication. We want to help in improving
+                laser-based communication technology and open the door to its implementation in a
+                variety of applications, particularly those that demand fast and dependable communication.
+            </p>
+            <figure>
+                <img src="./images/satelite.jpg" alt="satelite picture">
+            </figure>
+
+        </div>
+
+        <a class="anchor" id="jump_overview"></a>
+        <h1>Overview</h1>
+        <hr>
+        <div class="content">
+            <p>
+                In Our research, we aimed to create a laser-based communication system that could
+                send audio signals from a microphone to a speaker. The audio signal was sent by our
+                system using a laser transmitter and received by a photodiode. The receiver amplified
+                the signal and sent it to a microcontroller board, where it was converted back to an
+                analog signal, amplified again, and played through a speaker.<br><br>
+                This was accomplished by using two NUCLEO-G431RB boards which have an onboard
+                ADC with a 12-bit resolution for digitizing the audio signal and an onboard DAC, also
+                with a 12-bit resolution, for converting it back to analog. We transmitted data using the
+                USART protocol where we used 8 data bits and no parity bits (1 stop bit), which allowed
+                us to reach a high data rate of 512,000 bits/s. To set the sampling frequency of an ADC
+                we used the timer from our NUCLEO-G431RB board which allowed us very high
+                flexibility due to its extremely high clock speeds up to 170MHz where we adjusted the
+                prescaler and Counter values to make the sampling frequency exactly 25KHz.<br><br>
+                Managing unwanted noise, particularly high-frequency sounds, was one of the
+                difficulties we ran into while working on our project. Prior to the signal being played
+                through the speaker, we used filtering techniques to eliminate noise from the signal,
+                particularly a low-pass filter that mitigated any noise above 5kHz frequency. Additionally,
+                we utilized a laser with a wavelength of 450 nm, emitting the blue-violet color that is the
+                shortest wavelength on the color spectrum. We used a filter on our lenses to block out
+                other wavelength lights minimizing the distortion and noise. As this wavelength of light is
+                the shortest and therefore the least common human-visible light, our filter won't have to
+                bear other similar wavelength light thus only letting through our laser to the photodiode.<br><br>
+                As mentioned, For our USART, we utilized 8 data bits without a parity bit, and we sent
+                two packets for each sample of data that the ADC gathered. There were a total of 12
+                bits in each sample, with the first packet containing the least significant 8 bits of the
+                12-bit sample and the second packet consisting of the most significant 4 bits of the
+                12-bit sample (the other 4 data bits are filled with 0’s). <br><br>
+                On the transmitter side, we have a
+                high-sensitivity sound microphone sensor detection module which we use as a
+                microphone to get the analog input for our data. The incoming data goes into the
+                NUCLEO-G431RB board and is converted from an analog signal into a digital. The
+                remaining parts are a voltage-to-current converter and the 450nm laser diode. Voltage
+                to current converter is an absolutely crucial part of the project since the NUCLEO board
+                can't provide sufficient current to power the laser diode on its own.<br><br>
+                As for the receiver side, the first component we have to talk about is photodiode.
+                We are using a BPW34 model in order to catch the laser. By itself
+                this photodiode and generally all photodiodes create a small current when their surface
+                is excited by a light shining on them, however, the current and voltage they produce are
+                not nearly enough to act as input for the NUCLEO board.
+                In short, we devised an amplifier design using two transistors: a 2N2907 BJT
+                and a 2N7000 MOSFET connected in a cascading fashion. We are also using the
+                B0505S-1WR3 module to provide desired and consistent voltage to the amplifiers.
+                after the digital signal gets amplified to 3.3V and enters a NUCLEO board on the receiver side
+                it is converted into an analog signal. After that conversion, the signal needs
+                to be amplified one final time in order to be audible. In order to achieve this
+                we use LM358 signal amplifier module. Once when we amplify the analog signal we
+                pass it through a simple low-pass filter (removing unwanted noise) and play it though speakers where the
+                original microphone input can be heared.
+            </p>
+            <figure class="diagram">
+                <img src="./images/block_diagram.PNG" alt="block diagram">
+            </figure>
+            <p>
+                The convex lens of the collimator on the transmitter end enables correct focusing and
+                structuring of the laser light. The laser beam may be easily pointed in the direction of
+                the intended target distance by carefully setting the lens. It is crucial to remember that
+                even little variations in the lens positioning might cause the laser beam on the
+                transmitter's side to not be completely straight. <br><br>
+                Another convex lens is used at the receiver end of the system to counteract the
+                collimator's effects. This lens successfully focuses the laser beam on a particular focal
+                point, in this instance the photodiode. The photodiode is in charge of taking in the laser
+                beam and turning it back into electrical signals so that they may be processed further. <br><br>
+                A wavelength filter has also been added to the receiver side of the system to improve
+                system performance. Any light with a wavelength outside of the range of 370 nm to 495
+                nm is specifically targeted by this filter and eliminated. This filter efficiently stops
+                extraneous light from entering the photodiode, which could cause undesired noise and
+                distortion to enter the received signal.
+            </p>
+            <figure class="diagram">
+                <img src="./images/optics.png" alt="optics">
+            </figure>
+            <p>
+                Our test findings demonstrated that our laser-based communication system could send
+                audio signals from the microphone to the speaker with great quality and minimal
+                background noise. For real-time audio transmission, we were able to attain a data
+                transfer rate of 512,000 bits/s. Additionally, our technology showed how laser-based
+                communication may be used for distant sensing, high-speed data transfer, and secure
+                communication.
+            </p>
+        </div>
+
+        <a class="anchor" id="jump_summary"></a>
+        <h1>Summary</h1>
+        <hr>
+        <div class="content">
+            <p>
+                This project demonstrates the unique and practical use of laser technology for
+                communication objectives. Our approach, which involves two NUCLEO-G431RB
+                microcontrollers, one as a transmitter and the other as a receiver, reinforcing different
+                additional aspects already mentioned above such as receiver circuit, voltage to current
+                converter, and so on, provides a reliable and efficient wireless communication solution.
+                The combination of analog-to-digital conversion at the transmitter end and later
+                digital-to-analog conversion at the receiver end guarantees a continuous data transfer,
+                allowing for an unbroken communication channel.<br><br>
+                The presented work displays the feasibility of serial communication in a laser-based
+                system by leveraging the USART protocol. This not only reduces data loss during
+                transmission but also improves communication reliability and speed. When compared to
+                standard wireless communication technologies, the inclusion of laser technology boosts
+                the system's capabilities by providing faster data transfer speeds and a wider range of
+                transmission.<br><br>
+                This initiative advances communication technology by demonstrating an alternative to
+                radio frequency-based systems. It solves radio frequency communication limits such as
+                bandwidth limitations, interference, and security difficulties, providing a solution to many
+                existing communication obstacles.<br><br>
+                In the long run, this initiative sets the way for a wide range of potential applications. The
+                technique might be used to establish high-speed, secure communication networks in
+                regions where standard approaches are either impractical or ineffective. Furthermore,
+                with further research and refinement, it has the potential to significantly enhance
+                industries like telecommunications, space communication, and even the construction of
+                smart cities, where dependable, high-speed communication lines are critical.<br><br>
+                As the world continues to grow and evolve, attempts like these offer a look into the
+                future. This laser-based communication system demonstrates the power of technology
+                and its ability to impact our future by fixing existing issues and offering up new areas for
+                research.<br><br>
+                However, it must be mentioned that laser-based communication does have some
+                drawbacks, such as the vulnerability to weather, as fog, rain, and snow can all influence
+                the laser beams' performance. Its range is further limited by the need for a clear line of
+                sight between the sending and receiving ends, which might be hampered by
+                obstructions like mountains, trees, and buildings.
+            </p>
+            <div id="video">
+                <video width="100%" controls>
+                    <source src="images/IMG-2840.MOV" alt="laser audio transmission" type="video/mp4">
+                </video>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <ul>
+            <li id="sdsu-copyright">© 2023 San Diego State University Georgia</li>
+            <li id="privacy"><a
+                    href="https://www.sdsu.edu/digital-privacy?_ga=2.94479769.404943005.1684590750-1113413410.1677355381">Privacy
+                </a></li>
+            <li><a href="">|</a></li>
+            <li id="contact"><a href="https://georgia.sdsu.edu/en/contact">Contact</a></li>
+            <li><a href="">|</a></li>
+            <li id="accessibility"><a
+                    href="https://accessibility.sdsu.edu/?_ga=2.165979323.404943005.1684590750-1113413410.1677355381">Accessibility</a>
+            </li>
+        </ul>
+    </footer>
+    <script>
+
+        const sideMenu = document.querySelector(".side-navbar");
+        const navBarList = document.getElementsByClassName("side-bar");
+        const animation = document.querySelector(".banner2");
+        fetch("animation.html")
+            .then(res => {
+                if (res.ok) {
+                    return res.text();
+                }
+            })
+            .then(data => {
+                animation.innerHTML = data
+            })
+
+        function show() {
+            sideMenu.classList.remove("hide");
+            return false;
+        }
+
+        function hide() {
+            sideMenu.classList.add("hide");
+            return false;
+        }
+
+        window.addEventListener("resize", (e) => {
+            if (window.innerWidth > 960) {
+                return hide();
+            }
+        })
+
+        window.addEventListener("click", (e) => {
+            if (e.target == navBarList[0] || e.target == navBarList[1] || e.target == navBarList[2] || e.target == navBarList[3]) {
+                hide()
+            }
+        })
+    </script>
+</body>
+
+</html>
